@@ -45,7 +45,8 @@ public class Student {
     }
 
     public void setExamScore(int examNumber, double newScore){
-        examScores.set(examNumber, newScore);
+        examScores.set(examNumber,newScore);
+        //System.out.println("examScores.size()" + examScores.size());
 
     }
 
